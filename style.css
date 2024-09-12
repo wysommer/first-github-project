@@ -163,3 +163,63 @@ a {
     font-family: "poppins", sans-serif;
     font-weight: 300;
 }
+
+/* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
+
+@media (max-width: 728px) {
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-img {
+        max-width: 333px;
+    }
+
+    .about-img {
+        max-width: 333px;
+    }
+
+    .about-section p {
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .earth-img {
+        max-width: 333px;
+    }
+
+    .discord-section p {
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .contact-form {
+        max-width: 333px;
+    }
+}
+
+@media (max-width: 1007px) {
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-content {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .hero-btn {
+        width: 75%;
+        margin-top: 18px;
+    }
+
+    .about-section {
+        flex-direction: column;
+    }
+
+    .discord-section {
+        flex-direction: column;
+    }
+}
